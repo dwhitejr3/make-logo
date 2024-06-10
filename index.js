@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const circleSvg = require('./examples/circle.svg');
+// const circleSvg = require('./examples/circle.svg');
 
 
 inquirer
@@ -24,26 +24,26 @@ inquirer
 
     ]);
     
-}
 
- .then((response) {
-    if(response.shape === 'circle')
-    fs.writeFile('index.html', circleSvg);
-     })
-class Circle {
-    constructor(text, color) {
-        this.text = text;
-        this.color = color;
-    }
+
+//  .then((response) {
+//     if(response.shape === 'circle')
+//     fs.writeFile('index.html', circleSvg);
+//      })
+// class Circle {
+//     constructor(text, color) {
+//         this.text = text;
+//         this.color = color;
+//     }
    
-class Square extends Circle {
-    constructor(text,color) {
-        super(text,color);
-    }
-}
+// class Square extends Circle {
+//     constructor(text,color) {
+//         super(text,color);
+//     }
+// }
 
-class Triangle extends Circle {
-    constructor(text,color) {
-        super(text,color);
-    }
-}
+// class Triangle extends Circle {
+//     constructor(text,color) {
+//         super(text,color);
+//     }
+// }
