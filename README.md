@@ -1,1 +1,2 @@
-# make-logo
+# logo-maker
+
